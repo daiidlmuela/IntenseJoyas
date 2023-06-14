@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+
+.contenedor {width: 50%;}
+@media (min-width:700px) and (max-width:900px){
+    .contenedor{width: 33%;}
+}
+
+@media (min-width:700px) and (max-width:900px){
+    .contenedor{width: 25%;}
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+h1.mb-3 {
+    color: rgb(255, 250, 253);
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+h4.mb-3 {
+    color: rgba(214, 113, 192, 0.863);
+    text-align: center;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.ig{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.ig:hover{
+    color: rgb(138, 138, 138);
+}
+.favs{
+    text-align: center;
+    font-size: 30px;
+}
+
+.stretched-link{
+
+    color: black;
+}
+
+
+.stretched-link:hover {
+color: rgb(138, 138, 138);
+}
+footer .global{
+    display: flex;
+    flex-direction: row;
+    margin: 3em;
+    padding: 3em;
+    justify-content: space-between;
+    background-color: black;
+
+}
+footer .global p {
+    align-items: center;
+    padding: 3em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+p.infoenvios{
+    font-size: 30px;
+    color: blanchedalmond;
+}

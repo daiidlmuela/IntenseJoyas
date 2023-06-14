@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body{
+ background-color: rgb(141, 141, 141);
+}
+.ig{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.carouselExampleControls{
+    border: 20px;
+}
+.img_produc{
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+h1{
+    color: black;
+    margin-left: 30px;
+}
+h2{
+    margin-left: 50px;
+}
+h3{
+    color: black;
+    margin-left: 30px;
+    font-size: 300px;
+}
+.carrusel{
+    margin-left: 350px;
+    align-items: center;
+    width: 35%;
+    display: flex;
+    
+}
+.infoproduct{
+    text-align: right;
+    vertical-align: top;
+    
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+footer .global{
+    display: flex;
+    flex-direction: row;
+    margin: 3em;
+    padding: 3em;
+    justify-content: space-between;
+    background-color: black;
+
+}
+footer .global p {
+    align-items: center;
+    padding: 3em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+p.infoenvios{
+    font-size: 30px;
+    color: blanchedalmond;
+}
