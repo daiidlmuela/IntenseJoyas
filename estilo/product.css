@@ -45,6 +45,14 @@ h3{
     vertical-align: top;
     
 }
+.stretched-link{
+
+    color: black;
+}
+
+.stretched-link:hover {
+    color: rgb(138, 138, 138);
+    }
 .text{
     text-align: center;
     font-size: 30px;
